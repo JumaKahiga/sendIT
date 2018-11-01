@@ -1,28 +1,76 @@
 .site-layout {
     float: left;
     width: 100%;
+    background-color: floralwhite;
 }
 
-#top-bar {
-    background-color: rgba(0, 0, 0, 0.85);
-    float: left;
+body{
+    font-family: https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
     margin: 0;
-    position: absolute;
-    width: 99%;
-    z-index: 100000000;
+}
+
+.container{
+    width:80%;
+    overflow: hidden;
+    margin: auto;
+}
+
+header{
+    background: orange;
+    color:cornsilk;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: orange 3px solid;
+}
+
+header a{
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    
+}
+
+
+
+header li{
+    display: inline;
+    float:left;
+    padding: 0 20px 0 20px;
+}
+
+header #top-bar{
+    float: left;
+}
+
+header #top-bar h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .active a{
+    color:beige;
+    font-weight: bold;
+}
+
+header a:hover{
+    color:purple;
+    font-weight: bold;
 }
 
 .urban {
     background-color: rgba(0, 0, 0, 0.95);
 }
 
-#navbar {
-    background-color: black;
-    float: left;
-    margin: 5;
-    position: absolute;
-    padding: 14px 16px;
-    width: 99%;
-    z-index: 100000000;
-    display: inline-block;
+ul{
+    padding: 0;
+    margin: 0;
 }
