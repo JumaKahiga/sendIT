@@ -20,11 +20,11 @@ ul{
 }
 
 header{
-    background: orange;
+    background: red;
     color:cornsilk;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: orange 3px solid;
+    border-bottom: red 3px solid;
 }
 
 header a{
@@ -68,7 +68,7 @@ header a:hover{
 
 #urban{
     min-height: 400px;
-    color:limegreen;
+    color:yellow;
     background:url(../img/delivery.jpg) no-repeat -400px;
     text-align: center;
     text-shadow: 1px 1px black;
@@ -84,6 +84,7 @@ header a:hover{
     font-size: 20px;
 }
 
+
 #rural{
     margin-top: 20px;
 }
@@ -98,6 +99,13 @@ header a:hover{
 #rural .box img{
     width: :50px;
 }
+
+
+
+.btn:hover {
+  opacity: 1;
+}
+
 
 footer{
     padding: 20px;
