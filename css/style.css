@@ -114,6 +114,7 @@ header a:hover{
   max-width: 300px;
   padding: 15px;
   background-color: white;
+  border: 1px solid red;
 }
 
 .nairobian h1 {
@@ -122,7 +123,7 @@ header a:hover{
 }
 
 
-  input[type=text], input[type=password] {
+  input[type=text], input[type=password], input[type=textarea], input[type=date] {
   width: 90%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -130,7 +131,7 @@ header a:hover{
   background: #f1f1f1;
 }
 
-input[type=text]:focus, input[type=password]:focus {
+input[type=text]:focus, input[type=password], input[type=textarea], input[type=date]:focus {
   background-color: #ddd;
   outline: none;
 }
@@ -282,15 +283,6 @@ input[type=text]:focus, input[type=password]:focus {
 
 /* Grid */
 
-/* Footer */
-footer{
-    padding: 20px;
-    margin-top: 20px;
-    color:orange;
-    background-color: black;
-    text-align: center;
-}
-
 /* Table */
 
 table {
@@ -310,3 +302,17 @@ tr:nth-child(even){
 }
 
 /* Table */
+
+
+
+/* Footer */
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color:orange;
+    background-color: black;
+    text-align: center;
+}
+
+
+
