@@ -169,7 +169,7 @@ input[type=text]:focus, input[type=password]:focus {
 
 
 .btn {
-  background-color: #4CAF50;
+  background-color: green;
   color: white;
   padding: 16px 20px;
   border: none;
@@ -178,10 +178,111 @@ input[type=text]:focus, input[type=password]:focus {
   opacity: 0.9;
 }
 
+/* Dashboard */
+.dashboard-menu{
+  height: 100%;
+  width: 160px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: red;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
 
+.dashboard-menu a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+}
 
+.dashboard-menu a:hover {
+  color: beige;
+}
 
+/* Grid */
 
+.horizontal-menu { 
+    grid-area: header;
+    padding-top: 30px;
+    min-height: 70px;
+    background: red;
+    color: cornsilk;
+    
+}
+
+.horizontal-menu h1 {
+    padding-left: 30px;
+}
+
+.horizontal-menu a {
+    text-decoration: none;
+    color: cornsilk;
+}
+
+.vertical-menu { 
+    grid-area: menu;
+    padding: 6px 8px 6px 16px;
+    position: relative;
+    width: 160px;
+    display: block;
+    background-color: antiquewhite;
+    border: 2px solid red;
+}
+
+.vertical-menu h5 {
+    text-align: left;
+    color: black;
+    padding: 3px;
+}
+
+.vertical-menu a {
+    padding-top: 30px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    display:inline-block;
+}
+
+.vertical-menu a:hover{
+    color:green;
+    font-weight: bold;
+    
+}
+
+.dashboard-content { 
+    grid-area: main;
+}
+
+.dashboard-right { 
+    grid-area: right;
+}
+
+.dashboard-footer { 
+    grid-area: footer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: white;
+}
+.grid-container > div {
+  text-align: left;
+  padding: 30px 0;
+  font-size: 15px;
+}
+
+/* Grid */
+
+/* Footer */
 footer{
     padding: 20px;
     margin-top: 20px;
@@ -189,3 +290,23 @@ footer{
     background-color: black;
     text-align: center;
 }
+
+/* Table */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid red;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: palegreen;
+}
+
+/* Table */
