@@ -175,7 +175,18 @@ input[type=text]:focus, input[type=password], input[type=textarea], input[type=d
   padding: 16px 20px;
   border: none;
   cursor: pointer;
-  width: 100%
+  opacity: 0.9;
+}
+
+.cancel-btn {
+  background-color: red;
+  float: right;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  width: 10%;
   opacity: 0.9;
 }
 
