@@ -107,6 +107,72 @@ header a:hover{
 }
 
 
+/* Forms */
+.nairobian {
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 15px;
+  background-color: white;
+}
+
+.nairobian h1 {
+    text-align: center;
+    color: black;
+}
+
+
+  input[type=text], input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+.cosmopolitan {
+  background-image: url("../img/packing.jpg");
+  min-height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.float_center {
+  float: right;
+
+  position: relative;
+  right: 32%;
+  text-align: left;
+}
+.float_center > .child {
+  position: relative;
+  left: 50%;
+}
+
+
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%
+  opacity: 0.9;
+}
+
+
+
+
+
 footer{
     padding: 20px;
     margin-top: 20px;
