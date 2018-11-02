@@ -168,6 +168,7 @@ input[type=text]:focus, input[type=password], input[type=textarea], input[type=d
 }
 
 
+/** buttons */
 
 .btn {
   background-color: green;
@@ -189,6 +190,16 @@ input[type=text]:focus, input[type=password], input[type=textarea], input[type=d
   width: 10%;
   opacity: 0.9;
 }
+
+.alt-btn {
+  background-color: dimgray;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
 
 /* Dashboard */
 .dashboard-menu{
