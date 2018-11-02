@@ -145,6 +145,15 @@ input[type=text]:focus, input[type=password]:focus {
   position: relative;
 }
 
+#provincial {
+  background-image: url("../img/deliveryman.jpg");
+  min-height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .float_center {
   float: right;
 
