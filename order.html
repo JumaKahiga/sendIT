@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Styles -->
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/learner.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     
     <!-- Scripts -->
@@ -32,12 +32,43 @@
                 <li><a href="completed.html"><i class="fa fa-fw fa-home"></i> Archived Orders</a></li
                 <li><a href="messages.html"><i class="fa fa-fw fa-envelope"></i> Messages</a></li>
             </ul>
-                    
-            
-            
-            
-
         </div>
+        
+        <div class="dashboard-content">
+            
+            <section class="float_center">
+        <form action="" class="nairobian">
+            <h3>Place Order</h3>
+
+            <label for="recipient"><b>Recipient</b></label>
+            <input type="text" placeholder="Enter recipient&apos;s full name" name="recipient" required>
+            
+            <label for="telephone"><b>Recipient&apos; Phone Number</b></label>
+            <input type="text" placeholder="Enter your phone number" name="telephone" required>
+
+            <label for="delivery"><b>Delivery Address</b></label>
+            <input type="text" placeholder="Enter delivery address" name="delivery" required>
+            
+            <label for="collection"><b>Collection Point</b></label>
+            <input type="text" placeholder="Location where package will be collected for delivery" name="collection" required>
+            
+            <label for="collection_date"><b>Collection Date</b></label>
+            <input type="date" placeholder="When will the package be ready for collection by our couriers" name="collection_date" required>
+            
+            <label for="package_desc"><b>Package Description</b></label>
+            <input type="textarea" placeholder="Enter a description of the package" name="package_desc" required>
+
+            
+    
+            <p>Price will be calculated on collection after our courier weighs the parcel. Our agents will contact you shortly. </p>
+            
+          <button type="submit" class="btn">Place Order</button>
+        </form>
+        
+    </section>
+        </div>
+        
+        
 
 
         
