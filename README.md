@@ -25,7 +25,7 @@ Users can see the details of a delivery order.
 Admin can change the status and present location of a parcel delivery order.
 
 **How to install the project on your local machine**
-1. Clone the repository using the following link https://github.com/JumaKahiga/sendIT
+1. Clone the repository using the following [link](https://github.com/JumaKahiga/sendIT.git/)
 2. Open the index.html page using your browser, then navigate through the pages.
 
 NB: Current version is not built using frameworks, and thus none needs to be installed after cloning. 
