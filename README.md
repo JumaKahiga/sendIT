@@ -5,6 +5,7 @@ SendIT is an app for a courier service that helps users deliver parcels to diffe
 SendIT is a courier service that helps users deliver parcels to different destinations. SendIT provides courier quotes based on weight categories.
 
 *Current version is only the UI*
+View the hosted UI version [here](https://jumakahiga.github.io/sendIT/)
 
 # Current UI Features
 Users can create an account and log in.
