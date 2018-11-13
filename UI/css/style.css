@@ -98,9 +98,64 @@ header a:hover{
 }
 
 #rural .box img{
-    width: :50px;
+    width: 50px;
 }
 
+/** buttons */
+
+.btn {
+  background-color: green;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.update1-btn {
+    background-color: green;
+    display: inline-block;
+    position: relative;
+    left: 35%;
+    color: black;
+    padding: 16px 20px;
+    cursor: pointer;
+    opacity: 0.9;
+
+}
+
+.update2-btn {
+    background-color: orange;
+    display: inline-block;
+    position: relative;
+    left: 35%;
+    color: black;
+    padding: 16px 20px;
+    cursor: pointer;
+    opacity: 0.9;
+
+}
+
+.update3-btn {
+    background-color: red;
+    display: inline-block;
+    position: relative;
+    left: 35%;
+    color: black;
+    padding: 16px 20px;
+    cursor: pointer;
+    opacity: 0.9;
+
+}
+
+.alt-btn {
+  background-color: dimgray;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
 
 
 .btn:hover {
@@ -166,39 +221,6 @@ input[type=text]:focus, input[type=password], input[type=textarea], input[type=d
 .float_center > .child {
   position: relative;
   left: 50%;
-}
-
-
-/** buttons */
-
-.btn {
-  background-color: green;
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  opacity: 0.9;
-}
-
-.cancel-btn {
-  background-color: red;
-  float: right;
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  text-align: center;
-  width: 10%;
-  opacity: 0.9;
-}
-
-.alt-btn {
-  background-color: dimgray;
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  opacity: 0.9;
 }
 
 
