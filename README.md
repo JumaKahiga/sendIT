@@ -6,7 +6,15 @@ SendIT is a courier service that helps users deliver parcels to different destin
 
 *Current version is only the UI*
 
-View the hosted UI version [here](https://jumakahiga.github.io/sendIT/)
+View hosted UI version [here](https://jumakahiga.github.io/sendIT/)
+
+**How to navigate through the UI version**
+1. Enter dummy registration details and click on the Register button. This should redirect you to the user Dashboard.
+2. Enter dummy login details and click on the Login button. This should redirect you to the user Dashboard.
+3. When you click on Logout on the Dashboard menu, it will redirect you to the Login page.
+4. To view the sample Order Details page for users, click on the Order No. on the first row of the first table (Order No. 106) on the Dashboard.
+5. To view the sample Order Details page for admin, click on the Order No. on the second row of the first table (Order No. 107) on the Dashboard.
+6. To view the sample User Profile page, click on the Recipient name on the first row of the first table (John Doe) on the Dashboard. 
 
 # Current UI Features
 Users can create an account and log in.
@@ -17,10 +25,11 @@ Users can see the details of a delivery order.
 Admin can change the status and present location of a parcel delivery order.
 
 **How to install the project on your local machine**
-1. Clone the repository using the following link https://github.com/JumaKahiga/sendIT
+1. Clone the repository using the following [link](https://github.com/JumaKahiga/sendIT.git/)
 2. Open the index.html page using your browser, then navigate through the pages.
 
-NB: Current version is not built using frameworks, and thus none needs to be installed after cloning. In addition, since this is a UI, no login details are required and the user dashboard is accessible on clicking the Login or Register buttons. 
+NB: Current version is not built using frameworks, and thus none needs to be installed after cloning. 
+
 
 **Final product to be built using**
 1. Web framework: Flask
